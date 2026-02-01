@@ -14,15 +14,14 @@ A lightweight Linux monitoring tool built using Shell scripting to track CPU, me
 top, free, df, ps, awk, grep, sleep, clear, chmod, trap
 
 ## Setup Steps
-cd ~/project
-mkdir linux-system-monitor-shell-script
-cd linux-system-monitor-shell-script
-touch monitor.sh README.md .gitignore
-mkdir logs screenshots
-chmod +x monitor.sh
+- cd ~/project
+- mkdir linux-system-monitor-shell-script
+- cd linux-system-monitor-shell-script
+- touch monitor.sh
+- chmod +x monitor.sh
+## RUN
+./system_monitor.sh
 
-## Usage
-./monitor.sh
 Stop using CTRL + C
 
 ## Skills Demonstrated
